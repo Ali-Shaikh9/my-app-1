@@ -42,24 +42,23 @@ function App() {
   }
   return (
     <>
-        {/* <Router> */}
+         {/* <Router>  */}
     {/* <Navbar title="TextUtils" aboutText="About TextUtils" /> */}
     {/* <Navbar/> */}
     <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
     <Alert alert={alert}/> 
     <div className="container my-3">
-{/* 
-          <Switch>
-            <Route exact path="/about"> */}
-              {/* <About />
+          {/* <Switch>
+            <Route exact path="/about"> 
+                  <About />
             </Route>
             <Route exact path="/"> */}
               <TextForm heading="Enter The Text To Analyze Below" mode={mode} toggleMode={toggleMode} showAlert={showAlert} />
             {/* </Route>
-          </Switch> */}
-    {/* <About /> */}
+          </Switch> 
+        <About />  */}
     </div>
-    {/* </Router> */}
+        {/* </Router> */}
     </> 
   );
 }
